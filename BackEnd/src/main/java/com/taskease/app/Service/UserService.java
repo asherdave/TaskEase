@@ -47,6 +47,7 @@ public class UserService {
 	}
 	
 	//D - delete a user
+	@SuppressWarnings("unused")
 	public String deleteUser(int userId) {
 			String msg = "";
 					

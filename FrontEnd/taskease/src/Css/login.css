@@ -1,0 +1,217 @@
+.login-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-container .background-wrapper {
+    background-color: #ffffff;
+    height: 1024px;
+    width: 1440px;
+}
+
+.login-container .background-image {
+    background-image: url(../Images/image-background-orange-minimal-phone-wallpaper-1.png);
+    background-position: 50% 50%;
+    background-size: auto;
+    height: 1024px;
+}
+
+.login-container .login-box {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 4px 4px 16px #0000001a;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 100x;
+    overflow: hidden;
+    padding: 80px 100px;
+    position: relative;
+    top: 50px;
+}
+
+.login-container .login-content {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 100px;
+    position: relative;
+}
+
+.login-container .login-title {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.login-container .title-text {
+    color: #ba5112;
+    font-family: "Lexend-Bold", Helvetica;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.login-container .subtitle-text {
+    color: #251814;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.login-container .login-form {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 60px;
+    position: relative;
+}
+
+.login-container .input-group {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+}
+
+.login-container .username-input {
+    align-items: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px #0000001a;
+    color: #000000;
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 10px;
+    justify-content: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    overflow: hidden;
+    padding: 24px 463px 24px 36px;
+    position: relative;
+}
+
+.login-container .password-input{
+    align-items: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px #0000001a;
+    color: #000000;
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 10px;
+    justify-content: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    overflow: hidden;
+    padding: 24px 463px 24px 36px;
+    position: relative;
+}
+
+.login-container .password-group {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px #0000001a;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 24px 36px;
+    position: relative;
+}
+
+.login-container .password-label {
+    color: #b5b5b5;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
+
+.login-container .login-button {
+    align-items: center;
+    background-color: #edb046;
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px #0000001a;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 24px 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: #ffbf50;
+}
+
+.login-container .button-text {
+    color: #251814;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.login-container .account-options {
+    color: transparent;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.login-container .plain-text {
+    color: #251814;
+}
+
+.login-container .link-text {
+    color: #ba5112;
+    cursor: pointer;
+}

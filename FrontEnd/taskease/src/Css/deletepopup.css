@@ -1,0 +1,118 @@
+.delete-popup {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .delete-popup .div-wrapper {
+    height: 177px;
+    width: 475px;
+  }
+  
+  .delete-popup .group {
+    height: 177px;
+  }
+  
+  .delete-popup .delete {
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+    backdrop-filter: blur(4px) brightness(100%);
+    box-shadow: 0px 4px 4px #00000040;
+    height: 177px;
+    position: relative;
+  }
+  
+  .delete-popup .overlap-group-wrapper {
+    height: 53px;
+    left: 0;
+    position: absolute;
+    top: 124px;
+    width: 477px;
+  }
+  
+  .delete-popup .overlap-group {
+    background-color: #f7f6f4;
+    border-radius: 15px;
+    height: 53px;
+    position: relative;
+    width: 475px;
+  }
+  
+  .delete-popup .due {
+    color: #ffbe19;
+    font-family: "Lexend-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 197px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.7;
+    position: absolute;
+    top: 13px;
+    white-space: nowrap;
+    width: 82px;
+  }
+  
+  .delete-popup .overlap-wrapper {
+    background-color: #f7f6f4;
+    border-radius: 15px;
+    height: 109px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 475px;
+  }
+  
+  .delete-popup .overlap {
+    height: 75px;
+    position: relative;
+    top: 17px;
+  }
+  
+  .delete-popup .title {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left: 25px;
+    position: absolute;
+    top: 0;
+    width: 425px;
+  }
+  
+  .delete-popup .text-wrapper {
+    color: #b5b5b5;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: -4px;
+    margin-top: -1px;
+    position: relative;
+    width: 429px;
+  }
+  
+  .delete-popup .div {
+    color: #de3611;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: -4px;
+    position: relative;
+    text-align: center;
+    width: 429px;
+  }
+  
+  .delete-popup .line {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 37px;
+    width: 475px;
+  }
+  

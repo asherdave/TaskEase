@@ -2,11 +2,11 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Signup from './Component/signup.js';
-import Login from './Component/login.js';
-import Dashboard from './Component/dashboard.js';
-import AddPopup from './Component/addpopup.js';
-import DeletePopup from './Component/deletepopup.js';
+import Signup from './Components/signup.js';
+import Login from './Components/login.js';
+import Dashboard from './Components/dashboard.js';
+import AddPopup from './Components/addpopup.js';
+import DeletePopup from './Components/deletepopup.js';
 
 function App() {
   return (

@@ -10,21 +10,22 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "tblUsers")
 public class UserEntity {
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int userId;
-	@Column(name = "fName")
-	private String fName;
+    
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int userId;
 
-	@Column(name = "lName")
-	private String lName;
+    @Column(name = "fName")
+    private String fName;
 
-	@Column(name = "eMail")
-	private String eMail;
+    @Column(name = "lName")
+    private String lName;
 
-	@Column(name = "pWord")
-	private String pWord;
+    @Column(name = "eMail")  // Make sure this is exactly how it appears in the database
+    private String eMail;
+
+    @Column(name = "pWord")
+    private String pWord;
 	
 	public UserEntity() {}
 
@@ -61,13 +62,13 @@ public class UserEntity {
 		this.lName = lName;
 	}
 
-	public String geteMail() {
-		return eMail;
-	}
+	public String getEMail() {
+        return eMail;
+    }
 
-	public void seteMail(String eMail) {
-		this.eMail = eMail;
-	}
+    public void setEMail(String eMail) {
+        this.eMail = eMail;
+    }
 
 	public String getpWord() {
 		return pWord;

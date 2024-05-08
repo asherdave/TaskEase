@@ -58,4 +58,15 @@ public class UserService {
 				msg = "User" + userId + " does not exist!";
 				return msg;
 		}
+
+		public boolean validateUser(String email, String password) {
+			try {
+				UserEntity user = urepo.findByEMail(email); // Ensure this matches the repository method
+				return user != null && user.getpWord().equals(password);
+			} catch (Exception e) {
+				return false;
+			}
+		}		
+		
+		
 }

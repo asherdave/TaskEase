@@ -3,6 +3,8 @@ package com.taskease.app.Controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -54,5 +56,16 @@ public class UserController {
 	public String deleteUser(@PathVariable int userId) {
 		return userv.deleteUser(userId);
 	}
+
+	@PostMapping("/login")
+public ResponseEntity<String> loginUser(@RequestBody UserEntity user) {
+    boolean isValid = userv.validateUser(user.geteMail(), user.getpWord());
+    if (isValid) {
+        return ResponseEntity.ok("Login successful");
+    } else {
+        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Incorrect credentials");
+    }
+}
+
 
 }

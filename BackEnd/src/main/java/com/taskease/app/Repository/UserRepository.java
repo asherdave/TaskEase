@@ -5,5 +5,8 @@ import org.springframework.stereotype.Repository;
 import com.taskease.app.Entity.UserEntity;
 
 @Repository
+
 public interface UserRepository extends JpaRepository<UserEntity, Integer> {
+    UserEntity findByEmail(String eMail);
+ // This should match the getter method name part after 'get'
 }

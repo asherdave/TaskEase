@@ -30,21 +30,22 @@ public class UserService {
 	public UserEntity updateUser(int userId, UserEntity newUserDetails) {
 		UserEntity user = new UserEntity();
 		try {
-			//search the id number of the handset that will be updated
+			// search the id number of the user that will be updated
 			user = urepo.findById(userId).get();
 					
-			//update the record
+			// update the record
 			user.setfName(newUserDetails.getfName());
 			user.setlName(newUserDetails.getlName());
-			user.seteMail(newUserDetails.geteMail());
+			user.setEmail(newUserDetails.getEmail()); // Corrected method name
 			user.setpWord(newUserDetails.getpWord());
 					
 		} catch(NoSuchElementException ex) {
-			throw new NoSuchElementException("User" + userId + " does not exist!");
+			throw new NoSuchElementException("User " + userId + " does not exist!");
 		} finally {
 			return urepo.save(user);
 		}
 	}
+
 	
 	//D - delete a user
 	@SuppressWarnings("unused")
@@ -61,12 +62,12 @@ public class UserService {
 
 		public boolean validateUser(String email, String password) {
 			try {
-				UserEntity user = urepo.findByEMail(email); // Ensure this matches the repository method
+				UserEntity user = urepo.findByEmail(email); // Corrected to use findByEmail
 				return user != null && user.getpWord().equals(password);
 			} catch (Exception e) {
 				return false;
 			}
-		}		
+		}
 		
 		
 }

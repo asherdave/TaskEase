@@ -58,14 +58,14 @@ public class UserController {
 	}
 
 	@PostMapping("/login")
-public ResponseEntity<String> loginUser(@RequestBody UserEntity user) {
-    boolean isValid = userv.validateUser(user.geteMail(), user.getpWord());
-    if (isValid) {
-        return ResponseEntity.ok("Login successful");
-    } else {
-        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Incorrect credentials");
-    }
-}
+	public ResponseEntity<String> loginUser(@RequestBody UserEntity user) {
+		boolean isValid = userv.validateUser(user.getEmail(), user.getpWord()); // Correct method name
+		if (isValid) {
+			return ResponseEntity.ok("Login successful");
+		} else {
+			return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Incorrect credentials");
+		}
+	}
 
 
 }

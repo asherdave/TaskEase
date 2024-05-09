@@ -8,7 +8,7 @@ export const SignUpPage = () => {
   const [formData, setFormData] = useState({
     fName: '',
     lName: '',
-    eMail: '',
+    Email: '',
     pWord: ''
   });
   const [error, setError] = useState(''); // State to store error message
@@ -37,7 +37,7 @@ export const SignUpPage = () => {
         <div className="title">Sign up</div>
         <input className="rectangle" name="lName" placeholder="Last Name" type="text" onChange={handleChange} />
         <input className="rectangle-2" name="fName" placeholder="First Name" type="text" onChange={handleChange} />
-        <input className="rectangle-3" name="eMail" placeholder="Email" type="email" onChange={handleChange} />
+        <input className="rectangle-3" name="email" placeholder="Email" type="email" onChange={handleChange} />
         <input className="rectangle-4" name="pWord" placeholder="Password" type="password" onChange={handleChange} />
         <div className="text-wrapper">First Name</div>
         <div className="text-wrapper-2">Email</div>

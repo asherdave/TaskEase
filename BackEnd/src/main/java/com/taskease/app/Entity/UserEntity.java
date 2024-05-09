@@ -21,62 +21,59 @@ public class UserEntity {
     @Column(name = "lName")
     private String lName;
 
-    @Column(name = "eMail")  // Make sure this is exactly how it appears in the database
-    private String eMail;
+    @Column(name = "eMail")  // Database column name remains "eMail"
+    private String email;  // Field name in Java changed to "email" for simplicity and consistency
 
     @Column(name = "pWord")
     private String pWord;
-	
-	public UserEntity() {}
+    
+    public UserEntity() {}
 
-	public UserEntity(int userId, String fName, String lName, String pNum, String gender, String eMail, String pWord) {
-		super();
-		this.userId = userId;
-		this.fName = fName;
-		this.lName = lName;
-		this.eMail = eMail;
-		this.pWord = pWord;
-	}
-
-	public int getUserId() {
-		return userId;
-	}
-
-	public void setUserId(int userId) {
-		this.userId = userId;
-	}
-
-	public String getfName() {
-		return fName;
-	}
-
-	public void setfName(String fName) {
-		this.fName = fName;
-	}
-
-	public String getlName() {
-		return lName;
-	}
-
-	public void setlName(String lName) {
-		this.lName = lName;
-	}
-
-	public String getEMail() {
-        return eMail;
+    public UserEntity(int userId, String fName, String lName, String email, String pWord) {
+        this.userId = userId;
+        this.fName = fName;
+        this.lName = lName;
+        this.email = email;
+        this.pWord = pWord;
     }
 
-    public void setEMail(String eMail) {
-        this.eMail = eMail;
+    public int getUserId() {
+        return userId;
     }
 
-	public String getpWord() {
-		return pWord;
-	}
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
 
-	public void setpWord(String pWord) {
-		this.pWord = pWord;
-	}
+    public String getfName() {
+        return fName;
+    }
 
+    public void setfName(String fName) {
+        this.fName = fName;
+    }
+
+    public String getlName() {
+        return lName;
+    }
+
+    public void setlName(String lName) {
+        this.lName = lName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getpWord() {
+        return pWord;
+    }
+
+    public void setpWord(String pWord) {
+        this.pWord = pWord;
+    }
 }
-

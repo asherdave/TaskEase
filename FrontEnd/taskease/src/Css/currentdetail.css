@@ -1,0 +1,125 @@
+.current-detail-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050;  /* Increased z-index to ensure it's on top */
+  background-color: #ffffff;
+  padding: 28px 36px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: auto;  /* Adjust width as necessary */
+  max-width: 90%;  /* Prevents the popup from being too wide on larger screens */
+  box-sizing: border-box;
+  height: 400px;
+}
+
+  
+  .current-detail-popup .task-detail {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 73px;
+    position: relative;
+  }
+  
+  .current-detail-popup .details {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .current-detail-popup .title {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 328px;
+  }
+  
+  .current-detail-popup .text-wrapper {
+    color: #251814;
+    font-family: "Lexend-Bold", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: -26px;
+    margin-top: -1px;
+    position: relative;
+    width: 354px;
+  }
+  
+  .current-detail-popup .description {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 100px;
+    position: relative;
+    width: 352px;
+    height: 150px;
+
+  }
+  
+  .current-detail-popup .div {
+    color: #251814;
+    font-family: "Lexend-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 352px;
+  }
+  
+  .current-detail-popup .p {
+    color: #251814;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 20px;
+    top: 110px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: -10px;
+    position: fixed;
+    left: 80px;
+    
+  }
+  
+  .current-detail-popup .buttons {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 240px;
+    position: relative;
+  }
+  
+  .current-detail-popup .material-symbols {
+    height: 36px !important;
+    position: relative !important;
+    width: 36px !important;
+  }
+  
+  .current-detail-popup .buttons-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .current-detail-popup .icon-instance-node {
+    height: 32px !important;
+    position: relative !important;
+    width: 32px !important;
+  }
+  

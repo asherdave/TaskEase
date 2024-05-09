@@ -1,0 +1,189 @@
+.editing-a-task {
+  position: fixed;  /* Use fixed positioning to stay in place during scrolling */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;  /* Center vertically */
+  justify-content: center;  /* Center horizontally */
+  background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background for the dimming effect */
+  z-index: 1050; 
+}
+
+.editing-a-task .add-popup {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px #00000026;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  padding: 44px 48px;
+  position: relative;
+  height: 60%; 
+}
+
+.editing-a-task .contents {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 36px;
+  position: relative;
+}
+
+.editing-a-task .input {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.editing-a-task .title {
+  align-items: center;
+  background-color: #f7f6f4;
+  border-radius: 12px;
+  box-shadow: 2px 2px 6px #0000001a;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  overflow: hidden;
+  padding: 16px 645px 16px 24px;
+  position: relative;
+  width: 854px;
+}
+
+.editing-a-task .text-wrapper {
+  color: #b5b5b5;
+  font-family: "Lexend-Regular", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.editing-a-task .div-wrapper {
+  align-items: center;
+  background-color: #f7f6f4;
+  border-radius: 12px;
+  box-shadow: 2px 2px 6px #0000001a;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  overflow: hidden;
+  padding: 16px 645px 16px 24px;
+  position: relative;
+}
+
+.editing-a-task .description {
+  align-items: center;
+  background-color: #f7f6f4;
+  border-radius: 12px;
+  box-shadow: 2px 2px 6px #0000001a;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  overflow: hidden;
+  padding: 16px 615px 120px 24px;
+  position: relative;
+  width: 854px;
+}
+
+.editing-a-task .buttons {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.editing-a-task .button-add {
+  all: unset;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #edb046;
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-top: -1px;
+  overflow: hidden;
+  padding: 16px 40px;
+  position: relative;
+}
+
+.editing-a-task .div {
+  color: #251814;
+  font-family: "Lexend-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.editing-a-task .button {
+  all: unset;
+  align-items: center;
+  background-color: #edb046;
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px 40px;
+  position: relative;
+}
+.editing-a-task .cancel-button {
+  all: unset;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #edb046;
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-top: -1px;
+  overflow: hidden;
+  padding: 16px 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.editing-a-task .save-button {
+  all: unset;
+  align-items: center;
+  background-color: #edb046;
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px 40px;
+  position: relative;
+  cursor: pointer;
+
+}

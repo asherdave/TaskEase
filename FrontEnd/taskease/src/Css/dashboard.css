@@ -6,14 +6,14 @@
   width: 100%;
 }
 
-.dashboard-container {
+.dashboard .div {
   background-color: #ffffff;
   height: 1024px;
   position: relative;
   width: 1440px;
 }
 
-.dashboard-content {
+.dashboard .div-2 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
   width: 1042px;
 }
 
-.dashboard-header {
+.dashboard .header {
   align-items: center;
   background-color: #ffffff;
   display: flex;
@@ -39,7 +39,7 @@
   width: 1043px;
 }
 
-.dashboard-search-frame {
+.dashboard .frame {
   align-items: center;
   background-color: #f7f6f4;
   border-radius: 30px;
@@ -51,14 +51,27 @@
   padding: 8px 125px 8px 20px;
   position: relative;
 }
+.dashboard .dashboard-icon{
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
 
-.dashboard-icon {
+.dashboard-icon .frame {
+  height: 20px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 19px;
+}
+
+.dashboard .icon-instance-node {
   height: 24px !important;
   position: relative !important;
   width: 24px !important;
 }
 
-.dashboard-text {
+.dashboard .text-wrapper {
   color: #65676d;
   font-family: "SF Pro Text-Medium", Helvetica;
   font-size: 18px;
@@ -70,7 +83,7 @@
   width: fit-content;
 }
 
-.dashboard-tips-frame {
+.dashboard .frame-2 {
   align-items: center;
   display: flex;
   gap: 30px;
@@ -78,14 +91,14 @@
   width: 104px;
 }
 
-.dashboard-ellipse {
+.dashboard .ellipse {
   height: 50px;
   object-fit: cover;
   position: relative;
   width: 50px;
 }
 
-.dashboard-heading {
+.dashboard .heading {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -94,7 +107,7 @@
   position: relative;
 }
 
-.dashboard-sign-out {
+.dashboard .sign-out {
   align-items: center;
   background-color: #ba5112;
   border-radius: 8px;
@@ -107,7 +120,7 @@
   position: relative;
 }
 
-.dashboard-sign-out-item {
+.dashboard .item {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -116,7 +129,7 @@
   position: relative;
 }
 
-.dashboard-sign-out-text {
+.dashboard .text-wrapper-2 {
   color: #ffffff;
   font-family: "Lexend-Regular", Helvetica;
   font-size: 16px;
@@ -128,13 +141,13 @@
   width: fit-content;
 }
 
-.dashboard-logout-icon {
+.dashboard .mdi-logout {
   height: 16px;
   position: relative;
   width: 16px;
 }
 
-.dashboard-main {
+.dashboard .main {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -143,18 +156,18 @@
   position: relative;
 }
 
-.dashboard-hero {
+.dashboard .hero {
   height: 282px;
   position: relative;
   width: 960px;
 }
 
-.dashboard-overlap-group {
+.dashboard .overlap-group {
   height: 282px;
   position: relative;
 }
 
-.dashboard-hero-rectangle {
+.dashboard .rectangle {
   background-color: #ffffff;
   border-radius: 16px;
   box-shadow: 2px 2px 10px #0000001a;
@@ -165,7 +178,21 @@
   width: 960px;
 }
 
-.dashboard-hero-name {
+.rectangle{
+  height: 232px;
+  width: 960px;
+}
+
+.rectangle .name{
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 2px 2px 10px #0000001a;
+  left: 0;
+  position: fixed;
+  top: 0;
+}
+
+.dashboard .name {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
@@ -175,7 +202,7 @@
   top: 70px;
 }
 
-.dashboard-hero-text {
+.dashboard .text-wrapper-3 {
   color: #251814;
   font-family: "Lexend-Bold", Helvetica;
   font-size: 44px;
@@ -187,7 +214,7 @@
   width: fit-content;
 }
 
-.dashboard-hero-desc {
+.dashboard .p {
   color: #251814;
   font-family: "Lexend-Regular", Helvetica;
   font-size: 16px;
@@ -198,33 +225,33 @@
   width: fit-content;
 }
 
-.dashboard-young-smiling-woman {
+.dashboard .young-smiling-woman {
   height: 261px;
   left: 672px;
-  position:absolute;
+  position: absolute;
   top: 21px;
   width: 280px;
 }
 
-.dashboard-today-section {
+.dashboard .today-s {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 24px;
-  justify-content:center;
-  position:relative;
+  justify-content: center;
+  position: relative;
 }
 
-.dashboard-date-heading {
+.dashboard .date-heading {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
   gap: 427px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-today-text {
+.dashboard .text-wrapper-4 {
   color: #251814;
   font-family: "Lexend-SemiBold", Helvetica;
   font-size: 28px;
@@ -232,20 +259,20 @@
   letter-spacing: 0;
   line-height: normal;
   margin-top: -1px;
-  position:relative;
+  position: relative;
   width: fit-content;
 }
 
-.dashboard-delete-and-date {
+.dashboard .delete-and-date {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
   gap: 100px;
   justify-content: flex-end;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-delete-text {
+.dashboard .text-wrapper-5 {
   color: #ba5112;
   font-family: "Lexend-Regular", Helvetica;
   font-size: 16px;
@@ -253,11 +280,11 @@
   letter-spacing: 0;
   line-height: normal;
   margin-top: -1px;
-  position:relative;
+  position: relative;
   width: fit-content;
 }
 
-.dashboard-date-text {
+.dashboard .text-wrapper-6 {
   color: #251814;
   font-family: "Lexend-SemiBold", Helvetica;
   font-size: 16px;
@@ -265,28 +292,28 @@
   letter-spacing: 0;
   line-height: normal;
   margin-top: -1px;
-  position:relative;
+  position: relative;
   width: fit-content;
 }
 
-.dashboard-tasks-and-stat {
+.dashboard .tasks-and-stat {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
   gap: 72px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-tasks {
+.dashboard .tasks {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 24px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-task {
+.dashboard .task {
   align-items: flex-start;
   background-color: #ffffff;
   border-radius: 12px;
@@ -297,35 +324,49 @@
   gap: 10px;
   overflow: hidden;
   padding: 22px 412px 22px 24px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-checklist {
+.dashboard .checklist {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
   gap: 20px;
-  position:relative;
+  position: relative;
 }
 
 .dashboard-material-symbols {
+  height: 28px;
+  position: relative;
+  width: 28px;
+}
+
+.material-symbols .checklist {
+  height: 21px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 21px;
+}
+
+.dashboard .material-symbols {
   height: 28px !important;
-  position:relative !important;
+  position: relative !important;
   width: 28px !important;
 }
 
-.dashboard-task-text {
+.dashboard .text-wrapper-7 {
   color: #251814;
   font-family: "Lexend-Regular", Helvetica;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
-  position:relative;
+  position: relative;
   width: fit-content;
 }
 
-.dashboard-checklist-wrapper {
+.dashboard .checklist-wrapper {
   align-items: flex-start;
   background-color: #ffffff;
   border-radius: 12px;
@@ -336,62 +377,62 @@
   gap: 10px;
   overflow: hidden;
   padding: 22px 477px 22px 24px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-stats {
+.dashboard .stats {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 40px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-stat-section {
+.dashboard .div-3 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 10px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-stat-rectangle {
+.dashboard .rectangle-2 {
   background-color: #ba5112;
   border-radius: 12px;
   height: 200px;
-  position:relative;
+  position: relative;
   width: 188px;
 }
 
-.dashboard-complete-stats {
+.dashboard .complete-stats {
   align-items: center;
   display: inline-flex;
   flex-direction: column;
   gap: 16px;
   justify-content: center;
   left: 29px;
-  position:absolute;
+  position: absolute;
   top: 32px;
 }
 
-.dashboard-stat-icon {
+.dashboard .icon-instance-node-2 {
   height: 56px !important;
-  position:relative !important;
+  position: relative !important;
   width: 56px !important;
 }
 
-.dashboard-stats-info {
+.dashboard .stats-2 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 4px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-stat-percentage {
+.dashboard .text-wrapper-8 {
   color: #ffffff;
   font-family: "Lexend-Bold", Helvetica;
   font-size: 32px;
@@ -399,74 +440,74 @@
   letter-spacing: 0;
   line-height: normal;
   margin-top: -1px;
-  position:relative;
+  position: relative;
   width: fit-content;
 }
 
-.dashboard-stat-text {
+.dashboard .text-wrapper-9 {
   color: #ffffff;
   font-family: "Lexend-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
-  position:relative;
+  position: relative;
   width: fit-content;
 }
 
-.dashboard-stat-rectangle-active {
+.dashboard .rectangle-3 {
   background-color: #edb046;
   border-radius: 12px;
   height: 200px;
-  position:relative;
+  position: relative;
   width: 190px;
 }
 
-.dashboard-active-stats {
+.dashboard .active-stats {
   align-items: center;
   display: inline-flex;
   flex-direction: column;
   gap: 16px;
   justify-content: center;
   left: 48px;
-  position:absolute;
+  position: absolute;
   top: 32px;
 }
 
-.dashboard-sidebar {
+.dashboard .sidebar {
   height: 1024px;
   left: 0;
-  position:absolute;
+  position: absolute;
   top: 0;
   width: 398px;
 }
 
-.dashboard-overlap-area {
+.dashboard .overlap {
   height: 1024px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-rectangle-sidebar {
+.dashboard .rectangle-4 {
   background-color: #ffffff;
   height: 1023px;
   left: 0;
-  position:absolute;
+  position: absolute;
   top: 1px;
   width: 320px;
 }
 
-.dashboard-sidebar-contents {
+.dashboard .contents {
   align-items: center;
   display: inline-flex;
   flex-direction: column;
   gap: 60px;
   height: 685px;
   left: 0;
-  position:absolute;
+  position: absolute;
   top: 0;
 }
 
-.dashboard-logo {
+.dashboard .logo {
   align-items: center;
   background-color: #ffffff;
   display: inline-flex;
@@ -474,10 +515,10 @@
   gap: 10px;
   justify-content: center;
   padding: 24px 63px 24px 62px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-logo-text {
+.dashboard .text-wrapper-10 {
   color: #ba5112;
   font-family: "Lexend-Bold", Helvetica;
   font-size: 36px;
@@ -485,85 +526,84 @@
   letter-spacing: 0;
   line-height: normal;
   margin-top: -1px;
-  position:relative;
+  position: relative;
   width: fit-content;
 }
 
-.dashboard-options-section {
+.dashboard .options-and-button {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 80px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-options-container {
+.dashboard .div-4 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
   gap: 10px;
   justify-content: center;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-option-rectangle {
+.dashboard .rectangle-5 {
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0px 0px 20px #0000001a;
   height: 68px;
-  position:relative;
+  position: relative;
   width: 220px;
 }
 
-.dashboard-add-task-section {
+.dashboard .add-task {
   align-items: center;
   display: inline-flex;
   gap: 40px;
   justify-content: center;
   left: 28px;
-  position:absolute;
+  position: absolute;
   top: 16px;
 }
 
-.dashboard-add-task-ellipse {
+.dashboard .ellipse-2 {
   background-color: #ba5112;
   border-radius: 18px;
   height: 36px;
-  position:relative;
+  position: relative;
   width: 36px;
 }
 
-.dashboard-add-icon {
+.dashboard .add {
   height: 14px;
   left: 11px;
-  position:absolute;
+  position: absolute;
   top: 11px;
   width: 14px;
 }
 
-.dashboard-options-list {
+.dashboard .options {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 32px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-option-wrapper {
+.dashboard .div-wrapper {
   align-items: center;
   background-color: #edb046;
   display: flex;
   flex: 0 0 auto;
   gap: 10px;
   justify-content: center;
-  padding: 12px 117px;
-  position:relative;
-  width: 396px;
+  padding: 12px 117px 12px 116px;
+  position: relative;
 }
 
-.dashboard-option-text {
+.dashboard .text-wrapper-11 {
   color: #251814;
   font-family: "Lexend-Regular", Helvetica;
   font-size: 20px;
@@ -571,11 +611,11 @@
   letter-spacing: 0;
   line-height: normal;
   margin-top: -1px;
-  position:relative;
+  position: relative;
   width: fit-content;
 }
 
-.dashboard-option-active {
+.dashboard .active {
   align-items: center;
   background-color: #ffffff;
   display: inline-flex;
@@ -583,10 +623,10 @@
   gap: 10px;
   justify-content: center;
   padding: 12px 135px 12px 134px;
-  position:relative;
+  position: relative;
 }
 
-.dashboard-option-completed {
+.dashboard .completed {
   align-items: center;
   background-color: #ffffff;
   display: inline-flex;
@@ -594,5 +634,18 @@
   gap: 10px;
   justify-content: center;
   padding: 12px 117px 12px 116px;
-  position:relative;
+  position: relative;
+}
+
+.image{
+  height: 261px;
+  width: 280px;
+}
+
+.image .dashboard-young-smiling-woman{
+  height: 261px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 280px;
 }

@@ -1,0 +1,420 @@
+.recently-deleted {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .recently-deleted .div {
+    background-color: #ffffff;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .recently-deleted .div-recent {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 1024px;
+    left: 398px;
+    position: absolute;
+    top: 0;
+    width: 1042px;
+  }
+  
+  .recently-deleted .header {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 44px;
+    justify-content: center;
+    margin-left: -0.5px;
+    margin-right: -0.5px;
+    padding: 24px 49px 24px 50px;
+    position: relative;
+    width: 1043px;
+  }
+  
+  .recently-deleted .frame {
+    align-items: center;
+    background-color: #f7f6f4;
+    border-radius: 30px;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 10px;
+    overflow: hidden;
+    padding: 8px 125px 8px 20px;
+    position: relative;
+  }
+
+  .recently-deleted .dashboard-icon{
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .recently-deleted .icon-instance-node {
+    height: 24px !important;
+    position: relative !important;
+    width: 24px !important;
+  }
+  
+  .recently-deleted .text-wrapper {
+    color: #65676d;
+    font-family: "SF Pro Text-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .recently-deleted .frame-2 {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    width: 104px;
+  }
+  
+  .recently-deleted .ellipse {
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+    width: 50px;
+  }
+  
+  .recently-deleted .heading {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 753px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .recently-deleted .sign-out {
+    align-items: center;
+    background-color: #ba5112;
+    border-radius: 8px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 16px 24px;
+    position: relative;
+  }
+  
+  .recently-deleted .item {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .recently-deleted .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .recently-deleted .mdi-logout {
+    height: 16px;
+    position: relative;
+    width: 16px;
+  }
+  
+  .recently-deleted .delete-content {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 36px;
+    position: relative;
+  }
+  
+  .recently-deleted .date-heading {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 392px;
+    position: relative;
+  }
+  
+  .recently-deleted .text-wrapper-3 {
+    color: #251814;
+    font-family: "Lexend-SemiBold", Helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .recently-deleted .p {
+    color: #de3611;
+    font-family: "Lexend-SemiBold", Helvetica;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .recently-deleted .tasks {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .recently-deleted .task {
+    align-items: flex-start;
+    background-color: #b5b5b5;
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px #0000001a;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    padding: 22px 673px 22px 24px;
+    position: relative;
+  }
+  
+  .recently-deleted .cheklist {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .recently-deleted .material-symbols {
+    height: 28px !important;
+    position: relative !important;
+    width: 28px !important;
+  }
+  
+  .recently-deleted .text-wrapper-4 {
+    color: #251814;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .recently-deleted .cheklist-wrapper {
+    align-items: flex-start;
+    background-color: #b5b5b5;
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px #0000001a;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    padding: 22px 749px 22px 24px;
+    position: relative;
+  }
+  
+  .recently-deleted .sidebar {
+    height: 1024px;
+    left: -230px;
+    position: absolute;
+    top: 0;
+    width: 398px;
+  }
+  
+  .recently-deleted .overlap{
+    height: 1024px;
+    position: relative;
+  }
+  
+  .recently-deleted .rectangle-2{
+    background-color: #ffffff;
+    height: 1023px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 320px;
+  }
+  
+  .recently-deleted .contents {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 60px;
+    height: 685px;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .recently-deleted .logo {
+    align-items: center;
+    background-color: #ffffff;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 24px 63px 24px 62px;
+    position: relative;
+  }
+  
+  .recently-deleted .text-wrapper-5 {
+    color: #ba5112;
+    font-family: "Lexend-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .recently-deleted .options-and-button {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 80px;
+    position: relative;
+  }
+  
+  .recently-deleted .div-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .recently-deleted .rectangle-2 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px #0000001a;
+    height: 68px;
+    position: relative;
+    width: 220px;
+  }
+  
+  .recently-deleted .add-task {
+    align-items: center;
+    display: inline-flex;
+    gap: 40px;
+    justify-content: center;
+    left: 28px;
+    position: absolute;
+    top: 16px;
+  }
+  
+  .recently-deleted .ellipse-2 {
+    background-color: #ba5112;
+    border-radius: 18px;
+    height: 36px;
+    position: relative;
+    width: 36px;
+  }
+  
+  .recently-deleted .add {
+    height: 14px;
+    left: 11px;
+    position: absolute;
+    top: 11px;
+    width: 14px;
+  }
+  
+  .recently-deleted .options {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+  }
+  
+  .recently-deleted .div-wrapper-deleted {
+    align-items: center;
+    background-color: #ffffff;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 12px 116px;
+    position: relative;
+  }
+  
+  .recently-deleted .text-wrapper-6 {
+    color: #251814;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .recently-deleted .div-wrapper1 {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 12px 135px 12px 134px;
+    position: relative;
+
+  }
+  
+  .recently-deleted .completed {
+    align-items: center;
+    background-color: #ffffff;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 12px 117px 12px 116px;
+    position: relative;
+  }
+  
+  .recently-deleted .completed-2 {
+    align-items: center;
+    background-color: #edb046;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 12px 117px 12px 116px;
+    position: relative;
+  }
+  

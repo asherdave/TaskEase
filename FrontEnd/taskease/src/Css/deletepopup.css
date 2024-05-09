@@ -6,7 +6,7 @@
     width: 100%;
   }
   
-  .delete-popup .div-wrapper {
+  .delete-popup .div-wrapper-delete {
     height: 177px;
     width: 475px;
   }
@@ -39,19 +39,17 @@
     width: 475px;
   }
   
-  .delete-popup .due {
-    color: #ffbe19;
-    font-family: "Lexend-SemiBold", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
-    left: 197px;
+  .delete-popup .cancel {
+    color: #ffd900;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
-    opacity: 0.7;
-    position: absolute;
-    top: 13px;
-    white-space: nowrap;
-    width: 82px;
+    margin-right: -4px;
+    position: relative;
+    text-align: center;
+    width: 429px;
   }
   
   .delete-popup .overlap-wrapper {
@@ -94,7 +92,7 @@
     width: 429px;
   }
   
-  .delete-popup .div {
+  .delete-popup .div-delete {
     color: #de3611;
     font-family: "Lexend-Regular", Helvetica;
     font-size: 20px;

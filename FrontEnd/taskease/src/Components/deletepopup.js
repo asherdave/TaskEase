@@ -1,35 +1,34 @@
 import React from "react";
 import "../Css/deletepopup.css";
 
-export const DeletePopup = () => {
+export const DeletePopup = ({ taskId, closePopup, onDeleteSuccess }) => {
+  const handleDelete = () => {
+      const todos = JSON.parse(localStorage.getItem('todolist')) || [];
+      const deletedTodos = JSON.parse(localStorage.getItem('deletedTasks')) || [];
+      const taskIndex = todos.findIndex(task => task.id === taskId);
+
+      if (taskIndex !== -1) {
+          const [deletedTask] = todos.splice(taskIndex, 1);
+          deletedTodos.push(deletedTask);
+          localStorage.setItem('todolist', JSON.stringify(todos));
+          localStorage.setItem('deletedTasks', JSON.stringify(deletedTodos));
+          onDeleteSuccess();  // Call this callback to indicate successful deletion
+      } else {
+          console.error("Task not found with ID:", taskId);
+      }
+      closePopup(); // Close the DeletePopup
+  };
+
   return (
-    <div className="delete-popup">
-      <div className="div-wrapper">
-        <div className="group">
-          <div className="div-wrapper">
-            <div className="delete">
-              <div className="overlap-group-wrapper">
-                <div className="overlap-group">
-                  <div className="due">Cancel</div>
-                </div>
-              </div>
-              <div className="overlap-wrapper">
-                <div className="overlap">
-                  <div className="title">
-                    <p className="text-wrapper">
-                      This task will be deleted. This action cannot be undone.
-                    </p>
-                    <div className="div">Delete Note</div>
-                  </div>
-                  <img className="line" alt="Line" src="line-4.svg" />
-                </div>
-              </div>
-            </div>
+      <div className="delete-popup">
+          <div className="popup-content">
+              <p>This task will be deleted. This action cannot be undone.</p>
+              <button onClick={handleDelete}>Delete Task</button>
+              <button onClick={closePopup}>Cancel</button>
           </div>
-        </div>
       </div>
-    </div>
   );
 };
+
 
 export default DeletePopup;

@@ -167,10 +167,6 @@
     cursor: pointer;
 
 }
-.overlap-group:hover{
-    background-color: #ff85ba;
-}
-
 .sign-up-page .overlap-group:hover {
     color: #000000;
 }
